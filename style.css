@@ -5,7 +5,7 @@ div#board {
 div#board .row {
   clear: both;
 }
-div#board .slot {
+div#board .square {
   height: 60px;
   width: 60px;
   float: left;
@@ -15,10 +15,10 @@ div#board .unplayed {
   border: 1px solid #DDD;
 }
 div#board .player1 {
-  background-color: #E66;
-  border: 1px solid #C55;
+  background-color: #000;
+  border: 1px solid #000;
 }
 div#board .player2 {
-  background-color: #66E;
-  border: 1px solid #55C;
+  background-color: #fff;
+  border: 1px solid #fff;
 }
